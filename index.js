@@ -10,7 +10,7 @@ const backspace = document.querySelector('.backspace');
 const hamburger = document.querySelector('.hamburger');
 const close = document.querySelector('.close');
 const deleteHistory = document.querySelector(".delete-history");
-
+ 
 let dis1_num = '';
 let dis2_num = '';
 let result = null;
@@ -149,7 +149,7 @@ hamburger.addEventListener('click', () => {
     calc.style.display = "none";
 })
 
-// Toggling the histoy panel view 
+// Toggling the history panel view with hamburger and close icons
 
 close.addEventListener("click", () => {
     const historyDiv = document.querySelector(".history"), calc = document.querySelector(".calc-wrapper");
