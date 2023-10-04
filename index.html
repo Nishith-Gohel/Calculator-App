@@ -14,36 +14,43 @@
 </head>
 <body>
     <div class="container">
-        <form action="#" name="datas">
-            <div id="screen" class="screen" name="screen">
-                <i class="hamburger fa-solid fa-bars"></i>
-                <div class="dis1"></div>
-                <div class="dis2"></div>
-                <div class="dis3"></div>
-            </div>
+        <div class="history">
+            <h2><i class="fa-solid fa-xmark close"></i><span class="history-heading"> HISTORY </span> </h2>
+            <div class="history-content"></div>
+            <i class="fa-solid fa-trash delete-history"></i>
+        </div>
+        <div class="calc-wrapper">
+            <form action="#">
+                <div id="screen" class="screen" name="screen">
+                    <h3><i class="hamburger fa-solid fa-bars"></i></h3>
+                    <div class="dis1"></div>
+                    <div class="dis2"></div>
+                    <div class="dis3"></div>
+                </div>
 
-            <div class="button_wrapper">
-                <div class="clear buttons">C</div>
-                <div class="ce_clear buttons">CE</div>
-                <div class="oper buttons">%</div>
-                <div class="oper buttons">/</div>
-                <div class="number buttons">7</div>
-                <div class="number buttons">8</div>
-                <div class="number buttons">9</div>
-                <div class="oper buttons">x</div>
-                <div class="number buttons">4</div>
-                <div class="number buttons">5</div>
-                <div class="number buttons">6</div>
-                <div class="oper buttons">-</div>
-                <div class="number buttons">1</div>
-                <div class="number buttons">2</div>
-                <div class="number buttons">3</div>
-                <div class="oper buttons">+</div>
-                <div class="number zero buttons">0</div>
-                <div class="dot number buttons">.</div>
-                <div class="equal buttons">=</div>
-            </div>
-        </form>
+                <div class="button-wrapper">
+                    <div class="clear buttons">C</div>
+                    <div class="ce_clear buttons">CE</div>
+                    <div class="backspace buttons"><i class="fa-solid fa-delete-left"></i></div>
+                    <div class="oper buttons">/</div>
+                    <div class="number buttons">7</div>
+                    <div class="number buttons">8</div>
+                    <div class="number buttons">9</div>
+                    <div class="oper buttons">x</div>
+                    <div class="number buttons">4</div>
+                    <div class="number buttons">5</div>
+                    <div class="number buttons">6</div>
+                    <div class="oper buttons">-</div>
+                    <div class="number buttons">1</div>
+                    <div class="number buttons">2</div>
+                    <div class="number buttons">3</div>
+                    <div class="oper buttons">+</div>
+                    <div class="number zero buttons">0</div>
+                    <div class="dot number buttons">.</div>
+                    <div class="equal buttons">=</div>
+                </div>
+            </form>
+        </div>
     </div>
     
     <script src="index.js"></script>
